@@ -1,0 +1,16 @@
+PODS:
+  - ZDialog (0.1.0)
+
+DEPENDENCIES:
+  - ZDialog (from `../`)
+
+EXTERNAL SOURCES:
+  ZDialog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZDialog: 5dd5c2fbb19dde1a67d65f36ee02380f17cb37a6
+
+PODFILE CHECKSUM: 1c15c2cfee423b31a24fe1865bfdf56e818e6731
+
+COCOAPODS: 1.6.0
