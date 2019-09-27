@@ -5,7 +5,6 @@
 
 import Foundation
 import UIKit
-import ZDialog
 
 
 @available(iOS 9.0, *)
