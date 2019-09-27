@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZDialog'
   s.version          = '0.1.0'
-  s.summary          = 'ZDialog is simple library for show alert dialog'
+  s.summary          = 'ZDialog lib for easy to show a dialog like as alert dialog'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

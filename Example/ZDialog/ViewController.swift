@@ -51,6 +51,9 @@ class ViewController: UIViewController {
             .setMessage("Are you love Swift?")
             .setOkButton("YES")
             .setCancelButton("NO")
+            .setOkButton(onTapListener: {
+                print("ok button taped")
+            })
             .showDialog(self)
     }
     
