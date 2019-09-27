@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZDialog'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'ZDialog lib for easy to show a dialog like as alert dialog'
 
 # This description is used to generate tags and improve search results.
