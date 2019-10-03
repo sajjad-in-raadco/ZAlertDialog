@@ -19,23 +19,23 @@ import UIKit
 import ZDialog
 class ViewController: UIViewController {
 
-lazy var alertDialog = ZAlertDialog()
-
-override func viewDidLoad() {
-super.viewDidLoad()
-}
-
-@IBAction func showNormalDialog(_ sender: UIButton) {
-alertDialog
-.setTitle("normal dialog")
-.setMessage("Are you love Swift?")
-.setOkButton("YES")
-.setCancelButton("NO")
-.setOkButton(onTapListener: {
-print("ok button taped")
-})
-.showDialog(self)
-}
+    lazy var alertDialog = ZAlertDialog()
+    
+    override func viewDidLoad() {
+    super.viewDidLoad()
+    }
+    
+    @IBAction func showNormalDialog(_ sender: UIButton) {
+        alertDialog
+        .setTitle("normal dialog")
+        .setMessage("Are you love Swift?")
+        .setOkButton("YES")
+        .setCancelButton("NO")
+        .setOkButton(onTapListener: {
+            print("ok button tapped")
+        })
+        .showDialog(self)
+    }
 
 }
 ```
